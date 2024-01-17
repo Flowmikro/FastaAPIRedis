@@ -11,7 +11,10 @@ cd FastaAPIRedis
 ```
 Запустить докер 
 ```commandline
-docker-compose up -d
+docker-compose build
+```
+```
+docker-compose up
 ```
 Перейти по адресу
 ```commandline
