@@ -10,6 +10,10 @@ git clone https://github.com/Flowmikro/FastaAPIRedis.git
 cd FastaAPIRedis
 ```
 Запустить докер 
+```
+docker-compose up -d
+```
+Или
 ```commandline
 docker-compose build
 ```
