@@ -4,7 +4,7 @@ services:
     build: .
     ports:
       - "8000:8000"
-    command: [ "sh", "/app/Scripts/app.sh" ]
+    command: [ "sh", "/app/Scripts/app.sh" ]  # скрипт для запуска uvicorn
 
   redis:
     container_name: redis

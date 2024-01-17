@@ -1,8 +1,8 @@
 from pydantic import BaseModel, Field, validator
 
 
-class AddressSchema(BaseModel):
-    phone: str = Field('89099099090')
+class UserSchema(BaseModel):
+    phone: str = Field('89099099090')  # в строке могут быть только цифры и длина должна быть 11 символов
     address: str
 
     @validator('phone')
