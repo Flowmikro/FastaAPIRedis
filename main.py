@@ -5,4 +5,4 @@ from app.router import router
 app = FastAPI(name='API')
 
 
-app.include_router(router, prefix='/api', tags=['/api'])
+app.include_router(router, tags=['/api'])
